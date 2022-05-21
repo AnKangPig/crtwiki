@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-	<head>		<meta charset="utf-8">
-		<meta charset="gbk">
-		<title>中转页面......</title>
-		<script>
-		function assign() { /*
-			location.assign("https://ankangpig.gitbook.io/crtwiki"); */
-		} 
-		</script>
-	</head>
-	<body onload="assign()">
-	<a href="https://ankangpig.gitbook.io/crtwiki">如果没有跳转点我</a>
-	</body>
+  <head>
+	<meta charset="utf-8">	<meta charset="gbk">
+	<title>中转页面......</title>
+    <script>
+      function assign() { 
+        document.getElementById("a").click();
+      } 
+</script>
+  </head>
+  <body onload="assign()">
+	<a href="https://ankangpig.gitbook.io/crtwiki"><span id="a">如果没有跳转点我</span></a>
+  </body>
 </html>
